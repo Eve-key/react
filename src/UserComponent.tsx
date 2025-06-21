@@ -14,6 +14,7 @@ const UserComponent: FC<Props> = ({ text }) => {
   return (
     <>
       <div>{text}</div>
+      <div>千夜</div>
       <div>
         {userList.map((user: User) => (
           <div>{user.name}</div>
